@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 // реализация с HashMap
-public class FibonacciHash {
+public class FibonacciHashMap {
     private static HashMap<Integer, Integer> cache = new HashMap<>();
 
     public static int fib(int n) {
