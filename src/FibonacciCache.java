@@ -16,7 +16,6 @@ public class FibonacciCache {
     }
 
     public static void main(String[] args) {
-        System.out.println("Реализация с HashMap:");
         for (int i = 0; i < 13; i++) {
             System.out.print(fib(i) + " ");
         }
