@@ -1,8 +1,13 @@
 public class Fibonacci {
     // рекурсивная реализация
     public static int fibRecursion(int n) {
-        if (n <= 1) return n; // базовый случай
-        return fibRecursion(n - 1) + fibRecursion(n - 2);
+        if (n == 0) {
+            return 0;
+        } else if (n == 1) {
+            return 1;
+        } else {
+            return fibRecursion(n - 1) + fibRecursion(n - 2);
+        }
     }
 
     // реализация в цикле с использование памяти (массив)
